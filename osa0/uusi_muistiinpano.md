@@ -18,7 +18,7 @@ Note: browser makes a GET request for HTML document, server returns the HTML doc
     server-->>browser: HTML document
     deactivate server
 
-NOTE: while executing HTML browser makes GET request for css file and javascript files.
+Note: while executing HTML browser makes GET request for css file and javascript files.
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
